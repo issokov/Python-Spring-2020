@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block header %}
+    <h1>About</h1>
+{% endblock %}
+{% block content %}
+    <div class="row mb-3">
+        <div class="col-12">
+            <a class="btn-toolbar" role="toolbar">
+                <a type="button" class="btn btn-warning" href="/">
+                    Back
+                </a>
+            </a>
+        </div>
+    </div>
+    <div class="row align-content-stretch">
+        <div class="col d-flex justify-content-center">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Главная страница</div>
+                <div class="card-body">
+                    <h5 class="card-title">Создание короткой ссылки</h5>
+                    <p class="card-text">Вставьте вашу длинную ссылку на главной странице затем нажмите</p>
+                    <button class="btn btn-success btn-block">Submit</button>
+                </div>
+            </div>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Аналитика</div>
+                <div class="card-body">
+                    <h5 class="card-title">Аналитика страницы</h5>
+                    <p class="card-text">После вы попадёте на страницу аналитики, обязательно сохраните пароль. Чтобы вернуться</p>
+                    <button class="btn btn-warning btn-block">Back</button>
+                </div>
+            </div>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Аналитика</div>
+                <div class="card-body">
+                    <h5 class="card-title">Удаление ссылки</h5>
+                    <p class="card-text">В случае, если вы решили удалить ссылку, перейдите на страницу аналитики и нажмите на</p>
+                    <button class="btn btn-danger btn-block">Remove</button>
+                </div>
+            </div>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Главная страница</div>
+                <div class="card-body">
+                    <h5 class="card-title">Просмотр аналитики</h5>
+                    <p class="card-text">Для перехода к аналитике, введите короткую ссылку и пароль, поле для
+                        которого появляется при нажатии</p>
+                    <button class="btn btn-info btn-block">Analytics</button>
+                </div>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,4071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<measure
+		index="52"
+		name="Численность населения, не указавшее источник средств к существованию (по данным ВПН-2010)"
+		key="[L3 02 Breadwinner Type Count].[Object ID].[0], [MEASURES].[People Quantity]" />
+	<dimension
+		index="1"
+		name="ТЕРСОН-МО(ОКТМО)" />
+	<dimension
+		index="2"
+		name="Тип населения (городское/сельское)">
+		<dimensionElement
+			code="Гор+Сел"
+			name="Городское и сельское население"
+			key="[N 1 1 Is Town].[Object ID].[All]" />
+		<dimensionElement
+			code="Гор"
+			name="Городское население"
+			key="[N 1 1 Is Town].[Object ID].[1]" />
+		<dimensionElement
+			code="Сел"
+			name="Сельское население"
+			key="[N 1 1 Is Town].[Object ID].[2]" />
+	</dimension>
+	<dimension
+		index="3"
+		name="Пол">
+		<dimensionElement
+			code="М+Ж"
+			name="Оба пола"
+			key="[L1 02 Gender Type].[Object ID].[All]" />
+		<dimensionElement
+			code="М"
+			name="Мужчины"
+			key="[L1 02 Gender Type].[Object ID].[1]" />
+		<dimensionElement
+			code="Ж"
+			name="Женщины"
+			key="[L1 02 Gender Type].[Object ID].[2]" />
+	</dimension>
+	<cell
+		measure52="1352119"
+		dimension1="30000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="625434"
+		dimension1="30000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="726685"
+		dimension1="30000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1278293"
+		dimension1="30000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="587854"
+		dimension1="30000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="690439"
+		dimension1="30000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="73826"
+		dimension1="30000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="37580"
+		dimension1="30000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="36246"
+		dimension1="30000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="36864"
+		dimension1="14000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17117"
+		dimension1="14000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="19747"
+		dimension1="14000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="36028"
+		dimension1="14000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16702"
+		dimension1="14000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="19326"
+		dimension1="14000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="836"
+		dimension1="14000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="415"
+		dimension1="14000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="421"
+		dimension1="14000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="12647"
+		dimension1="15000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5868"
+		dimension1="15000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6779"
+		dimension1="15000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10492"
+		dimension1="15000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4739"
+		dimension1="15000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="5753"
+		dimension1="15000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2155"
+		dimension1="15000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1129"
+		dimension1="15000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1026"
+		dimension1="15000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="88829"
+		dimension1="17000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="40728"
+		dimension1="17000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="48101"
+		dimension1="17000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="80043"
+		dimension1="17000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="36457"
+		dimension1="17000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="43586"
+		dimension1="17000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="8786"
+		dimension1="17000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4271"
+		dimension1="17000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="4515"
+		dimension1="17000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="98125"
+		dimension1="20000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="43953"
+		dimension1="20000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="54172"
+		dimension1="20000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="97439"
+		dimension1="20000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="43655"
+		dimension1="20000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="53784"
+		dimension1="20000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="686"
+		dimension1="20000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="298"
+		dimension1="20000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="388"
+		dimension1="20000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="49555"
+		dimension1="24000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="22761"
+		dimension1="24000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="26794"
+		dimension1="24000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="48387"
+		dimension1="24000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="22164"
+		dimension1="24000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="26223"
+		dimension1="24000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1168"
+		dimension1="24000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="597"
+		dimension1="24000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="571"
+		dimension1="24000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="71142"
+		dimension1="29000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="32680"
+		dimension1="29000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="38462"
+		dimension1="29000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="66198"
+		dimension1="29000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="30196"
+		dimension1="29000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="36002"
+		dimension1="29000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4944"
+		dimension1="29000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2484"
+		dimension1="29000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2460"
+		dimension1="29000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="18958"
+		dimension1="34000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8808"
+		dimension1="34000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="10150"
+		dimension1="34000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="18206"
+		dimension1="34000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8409"
+		dimension1="34000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="9797"
+		dimension1="34000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="752"
+		dimension1="34000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="399"
+		dimension1="34000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="353"
+		dimension1="34000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="43419"
+		dimension1="38000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="19923"
+		dimension1="38000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="23496"
+		dimension1="38000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="42421"
+		dimension1="38000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="19443"
+		dimension1="38000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="22978"
+		dimension1="38000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="998"
+		dimension1="38000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="480"
+		dimension1="38000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="518"
+		dimension1="38000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="36789"
+		dimension1="42000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17140"
+		dimension1="42000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="19649"
+		dimension1="42000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="36144"
+		dimension1="42000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16857"
+		dimension1="42000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="19287"
+		dimension1="42000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="645"
+		dimension1="42000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="283"
+		dimension1="42000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="362"
+		dimension1="42000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="357356"
+		dimension1="46000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="169467"
+		dimension1="46000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="187889"
+		dimension1="46000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="323630"
+		dimension1="46000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="151773"
+		dimension1="46000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="171857"
+		dimension1="46000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="33726"
+		dimension1="46000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17694"
+		dimension1="46000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="16032"
+		dimension1="46000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="12438"
+		dimension1="54000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5665"
+		dimension1="54000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6773"
+		dimension1="54000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="12338"
+		dimension1="54000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5615"
+		dimension1="54000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="6723"
+		dimension1="54000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="100"
+		dimension1="54000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="50"
+		dimension1="54000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="50"
+		dimension1="54000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="66246"
+		dimension1="61000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="29901"
+		dimension1="61000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="36345"
+		dimension1="61000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="62131"
+		dimension1="61000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="27950"
+		dimension1="61000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="34181"
+		dimension1="61000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4115"
+		dimension1="61000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1951"
+		dimension1="61000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2164"
+		dimension1="61000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="35300"
+		dimension1="66000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16240"
+		dimension1="66000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="19060"
+		dimension1="66000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="34100"
+		dimension1="66000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="15641"
+		dimension1="66000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="18459"
+		dimension1="66000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1200"
+		dimension1="66000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="599"
+		dimension1="66000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="601"
+		dimension1="66000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="11747"
+		dimension1="68000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5277"
+		dimension1="68000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6470"
+		dimension1="68000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10883"
+		dimension1="68000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4863"
+		dimension1="68000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="6020"
+		dimension1="68000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="864"
+		dimension1="68000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="414"
+		dimension1="68000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="450"
+		dimension1="68000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="89722"
+		dimension1="28000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="41186"
+		dimension1="28000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="48536"
+		dimension1="28000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="79416"
+		dimension1="28000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="35953"
+		dimension1="28000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="43463"
+		dimension1="28000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="10306"
+		dimension1="28000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5233"
+		dimension1="28000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="5073"
+		dimension1="28000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10021"
+		dimension1="70000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4548"
+		dimension1="70000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="5473"
+		dimension1="70000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="9462"
+		dimension1="70000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4244"
+		dimension1="70000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="5218"
+		dimension1="70000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="559"
+		dimension1="70000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="304"
+		dimension1="70000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="255"
+		dimension1="70000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="42580"
+		dimension1="78000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="19865"
+		dimension1="78000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="22715"
+		dimension1="78000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="40594"
+		dimension1="78000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="18886"
+		dimension1="78000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="21708"
+		dimension1="78000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1986"
+		dimension1="78000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="979"
+		dimension1="78000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1007"
+		dimension1="78000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="270381"
+		dimension1="45000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="124307"
+		dimension1="45000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="146074"
+		dimension1="45000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="835571"
+		dimension1="31000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="391420"
+		dimension1="31000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="444151"
+		dimension1="31000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="802957"
+		dimension1="31000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="374518"
+		dimension1="31000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="428439"
+		dimension1="31000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="32614"
+		dimension1="31000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16902"
+		dimension1="31000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="15712"
+		dimension1="31000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="20182"
+		dimension1="86000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="9553"
+		dimension1="86000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="10629"
+		dimension1="86000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="19227"
+		dimension1="86000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="9067"
+		dimension1="86000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="10160"
+		dimension1="86000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="955"
+		dimension1="86000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="486"
+		dimension1="86000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="469"
+		dimension1="86000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="35241"
+		dimension1="87000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17200"
+		dimension1="87000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="18041"
+		dimension1="87000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="34857"
+		dimension1="87000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17011"
+		dimension1="87000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="17846"
+		dimension1="87000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="384"
+		dimension1="87000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="189"
+		dimension1="87000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="195"
+		dimension1="87000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="13208"
+		dimension1="11000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6306"
+		dimension1="11000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6902"
+		dimension1="11000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="12617"
+		dimension1="11000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6009"
+		dimension1="11000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="6608"
+		dimension1="11000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="591"
+		dimension1="11000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="297"
+		dimension1="11000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="294"
+		dimension1="11000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="96"
+		dimension1="11800"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="45"
+		dimension1="11800"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="51"
+		dimension1="11800"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="96"
+		dimension1="11800"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="45"
+		dimension1="11800"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="51"
+		dimension1="11800"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		dimension1="11800"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		dimension1="11800"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		dimension1="11800"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="50713"
+		dimension1="19000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="23985"
+		dimension1="19000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="26728"
+		dimension1="19000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="46329"
+		dimension1="19000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="21695"
+		dimension1="19000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="24634"
+		dimension1="19000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4384"
+		dimension1="19000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2290"
+		dimension1="19000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2094"
+		dimension1="19000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="35894"
+		dimension1="27000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16757"
+		dimension1="27000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="19137"
+		dimension1="27000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="32721"
+		dimension1="27000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="15109"
+		dimension1="27000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="17612"
+		dimension1="27000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3173"
+		dimension1="27000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1648"
+		dimension1="27000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1525"
+		dimension1="27000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="101099"
+		dimension1="41000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="48412"
+		dimension1="41000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="52687"
+		dimension1="41000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="87573"
+		dimension1="41000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="41518"
+		dimension1="41000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="46055"
+		dimension1="41000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="13526"
+		dimension1="41000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6894"
+		dimension1="41000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="6632"
+		dimension1="41000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="59921"
+		dimension1="47000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="29871"
+		dimension1="47000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="30050"
+		dimension1="47000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="57697"
+		dimension1="47000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="28652"
+		dimension1="47000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="29045"
+		dimension1="47000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2224"
+		dimension1="47000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1219"
+		dimension1="47000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1005"
+		dimension1="47000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="18245"
+		dimension1="49000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8603"
+		dimension1="49000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="9642"
+		dimension1="49000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="11969"
+		dimension1="49000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5312"
+		dimension1="49000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="6657"
+		dimension1="49000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="6276"
+		dimension1="49000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3291"
+		dimension1="49000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2985"
+		dimension1="49000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="19515"
+		dimension1="58000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="9087"
+		dimension1="58000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="10428"
+		dimension1="58000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="18414"
+		dimension1="58000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8499"
+		dimension1="58000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="9915"
+		dimension1="58000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1101"
+		dimension1="58000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="588"
+		dimension1="58000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="513"
+		dimension1="58000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="481553"
+		dimension1="40000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="221646"
+		dimension1="40000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="259907"
+		dimension1="40000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="192964"
+		dimension1="37000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="90915"
+		dimension1="37000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="102049"
+		dimension1="37000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="167972"
+		dimension1="37000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="78599"
+		dimension1="37000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="89373"
+		dimension1="37000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="24992"
+		dimension1="37000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="12316"
+		dimension1="37000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="12676"
+		dimension1="37000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10894"
+		dimension1="79000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5462"
+		dimension1="79000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="5432"
+		dimension1="79000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="9086"
+		dimension1="79000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4544"
+		dimension1="79000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="4542"
+		dimension1="79000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1808"
+		dimension1="79000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="918"
+		dimension1="79000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="890"
+		dimension1="79000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="4799"
+		dimension1="85000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2107"
+		dimension1="85000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="2692"
+		dimension1="85000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="4799"
+		dimension1="85000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2107"
+		dimension1="85000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="2692"
+		dimension1="85000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		dimension1="85000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		dimension1="85000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		dimension1="85000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="42783"
+		dimension1="3000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="20244"
+		dimension1="3000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="22539"
+		dimension1="3000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="32246"
+		dimension1="3000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="15128"
+		dimension1="3000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="17118"
+		dimension1="3000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="10537"
+		dimension1="3000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5116"
+		dimension1="3000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="5421"
+		dimension1="3000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="84796"
+		dimension1="12000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="39833"
+		dimension1="12000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="44963"
+		dimension1="12000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="80779"
+		dimension1="12000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="37886"
+		dimension1="12000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="42893"
+		dimension1="12000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4017"
+		dimension1="12000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1947"
+		dimension1="12000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2070"
+		dimension1="12000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="17205"
+		dimension1="18000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8087"
+		dimension1="18000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="9118"
+		dimension1="18000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="16498"
+		dimension1="18000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="7689"
+		dimension1="18000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="8809"
+		dimension1="18000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="707"
+		dimension1="18000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="398"
+		dimension1="18000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="309"
+		dimension1="18000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="32487"
+		dimension1="60000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="15182"
+		dimension1="60000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="17305"
+		dimension1="60000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="24564"
+		dimension1="60000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11245"
+		dimension1="60000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="13319"
+		dimension1="60000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="7923"
+		dimension1="60000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3937"
+		dimension1="60000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="3986"
+		dimension1="60000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="11765"
+		dimension1="38000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5648"
+		dimension1="38000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6117"
+		dimension1="38000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="8523"
+		dimension1="38000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4158"
+		dimension1="38000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="4365"
+		dimension1="38000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3242"
+		dimension1="38000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1490"
+		dimension1="38000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1752"
+		dimension1="38000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="195"
+		dimension1="82000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="99"
+		dimension1="82000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="96"
+		dimension1="82000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="104"
+		dimension1="82000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="51"
+		dimension1="82000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="53"
+		dimension1="82000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="91"
+		dimension1="82000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="48"
+		dimension1="82000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="43"
+		dimension1="82000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="700"
+		dimension1="26000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="278"
+		dimension1="26000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="422"
+		dimension1="26000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="285"
+		dimension1="26000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="127"
+		dimension1="26000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="158"
+		dimension1="26000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="415"
+		dimension1="26000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="151"
+		dimension1="26000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="264"
+		dimension1="26000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="649"
+		dimension1="83000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="307"
+		dimension1="83000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="342"
+		dimension1="83000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="606"
+		dimension1="83000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="286"
+		dimension1="83000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="320"
+		dimension1="83000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="43"
+		dimension1="83000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="21"
+		dimension1="83000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="22"
+		dimension1="83000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1609"
+		dimension1="91000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="779"
+		dimension1="91000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="830"
+		dimension1="91000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1154"
+		dimension1="91000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="573"
+		dimension1="91000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="581"
+		dimension1="91000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="455"
+		dimension1="91000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="206"
+		dimension1="91000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="249"
+		dimension1="91000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1793"
+		dimension1="90000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="986"
+		dimension1="90000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="807"
+		dimension1="90000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1786"
+		dimension1="90000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="983"
+		dimension1="90000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="803"
+		dimension1="90000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="7"
+		dimension1="90000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3"
+		dimension1="90000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="4"
+		dimension1="90000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="178"
+		dimension1="96000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="79"
+		dimension1="96000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="99"
+		dimension1="96000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="69"
+		dimension1="96000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="33"
+		dimension1="96000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="36"
+		dimension1="96000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="109"
+		dimension1="96000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="46"
+		dimension1="96000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="63"
+		dimension1="96000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="6641"
+		dimension1="7000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3120"
+		dimension1="7000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="3521"
+		dimension1="7000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="4519"
+		dimension1="7000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2105"
+		dimension1="7000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="2414"
+		dimension1="7000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2122"
+		dimension1="7000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1015"
+		dimension1="7000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1107"
+		dimension1="7000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="558584"
+		dimension1="33000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="258219"
+		dimension1="33000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="300365"
+		dimension1="33000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="536223"
+		dimension1="33000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="247134"
+		dimension1="33000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="289089"
+		dimension1="33000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="22361"
+		dimension1="33000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11085"
+		dimension1="33000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="11276"
+		dimension1="33000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="69217"
+		dimension1="80000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="32262"
+		dimension1="80000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="36955"
+		dimension1="80000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="66893"
+		dimension1="80000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="31106"
+		dimension1="80000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="35787"
+		dimension1="80000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2324"
+		dimension1="80000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1156"
+		dimension1="80000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1168"
+		dimension1="80000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="24104"
+		dimension1="88000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11152"
+		dimension1="88000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="12952"
+		dimension1="88000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="20900"
+		dimension1="88000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="9524"
+		dimension1="88000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="11376"
+		dimension1="88000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3204"
+		dimension1="88000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1628"
+		dimension1="88000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1576"
+		dimension1="88000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="2186"
+		dimension1="89000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="974"
+		dimension1="89000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="1212"
+		dimension1="89000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="2064"
+		dimension1="89000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="914"
+		dimension1="89000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="1150"
+		dimension1="89000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="122"
+		dimension1="89000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="60"
+		dimension1="89000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="62"
+		dimension1="89000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="4385"
+		dimension1="92000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2053"
+		dimension1="92000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="2332"
+		dimension1="92000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="4381"
+		dimension1="92000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2052"
+		dimension1="92000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="2329"
+		dimension1="92000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4"
+		dimension1="92000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1"
+		dimension1="92000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="3"
+		dimension1="92000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="43729"
+		dimension1="94000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="20386"
+		dimension1="94000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="23343"
+		dimension1="94000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="42207"
+		dimension1="94000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="19611"
+		dimension1="94000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="22596"
+		dimension1="94000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1522"
+		dimension1="94000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="775"
+		dimension1="94000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="747"
+		dimension1="94000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="39607"
+		dimension1="97000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="18046"
+		dimension1="97000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="21561"
+		dimension1="97000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="38188"
+		dimension1="97000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17310"
+		dimension1="97000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="20878"
+		dimension1="97000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1419"
+		dimension1="97000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="736"
+		dimension1="97000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="683"
+		dimension1="97000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="104324"
+		dimension1="57000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="47841"
+		dimension1="57000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="56483"
+		dimension1="57000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="101437"
+		dimension1="57000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="46432"
+		dimension1="57000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="55005"
+		dimension1="57000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2887"
+		dimension1="57000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1409"
+		dimension1="57000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1478"
+		dimension1="57000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="28200"
+		dimension1="33000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="13251"
+		dimension1="33000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="14949"
+		dimension1="33000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="27342"
+		dimension1="33000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="12815"
+		dimension1="33000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="14527"
+		dimension1="33000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="858"
+		dimension1="33000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="436"
+		dimension1="33000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="422"
+		dimension1="33000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="17716"
+		dimension1="22000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8009"
+		dimension1="22000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="9707"
+		dimension1="22000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="17540"
+		dimension1="22000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="7931"
+		dimension1="22000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="9609"
+		dimension1="22000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="176"
+		dimension1="22000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="78"
+		dimension1="22000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="98"
+		dimension1="22000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="19138"
+		dimension1="53000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8950"
+		dimension1="53000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="10188"
+		dimension1="53000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="18058"
+		dimension1="53000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8405"
+		dimension1="53000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="9653"
+		dimension1="53000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1080"
+		dimension1="53000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="545"
+		dimension1="53000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="535"
+		dimension1="53000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="32161"
+		dimension1="56000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="14988"
+		dimension1="56000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="17173"
+		dimension1="56000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="29668"
+		dimension1="56000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="13796"
+		dimension1="56000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="15872"
+		dimension1="56000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2493"
+		dimension1="56000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1192"
+		dimension1="56000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1301"
+		dimension1="56000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="74810"
+		dimension1="36000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="35018"
+		dimension1="36000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="39792"
+		dimension1="36000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="72985"
+		dimension1="36000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="34112"
+		dimension1="36000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="38873"
+		dimension1="36000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1825"
+		dimension1="36000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="906"
+		dimension1="36000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="919"
+		dimension1="36000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="40181"
+		dimension1="63000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="18200"
+		dimension1="63000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="21981"
+		dimension1="63000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="39209"
+		dimension1="63000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="17697"
+		dimension1="63000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="21512"
+		dimension1="63000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="972"
+		dimension1="63000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="503"
+		dimension1="63000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="469"
+		dimension1="63000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="58826"
+		dimension1="73000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="27089"
+		dimension1="73000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="31737"
+		dimension1="73000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="55351"
+		dimension1="73000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="25429"
+		dimension1="73000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="29922"
+		dimension1="73000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3475"
+		dimension1="73000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1660"
+		dimension1="73000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1815"
+		dimension1="73000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="395800"
+		dimension1="34000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="188061"
+		dimension1="34000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="207739"
+		dimension1="34000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="382689"
+		dimension1="34000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="181399"
+		dimension1="34000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="201290"
+		dimension1="34000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="13111"
+		dimension1="34000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6662"
+		dimension1="34000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="6449"
+		dimension1="34000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="15036"
+		dimension1="37000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6957"
+		dimension1="37000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="8079"
+		dimension1="37000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="14350"
+		dimension1="37000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="6645"
+		dimension1="37000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="7705"
+		dimension1="37000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="686"
+		dimension1="37000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="312"
+		dimension1="37000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="374"
+		dimension1="37000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="161174"
+		dimension1="65000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="74909"
+		dimension1="65000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="86265"
+		dimension1="65000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="158184"
+		dimension1="65000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="73283"
+		dimension1="65000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="84901"
+		dimension1="65000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="2990"
+		dimension1="65000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1626"
+		dimension1="65000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1364"
+		dimension1="65000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="149445"
+		dimension1="71000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="73309"
+		dimension1="71000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="76136"
+		dimension1="71000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="141778"
+		dimension1="71000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="69477"
+		dimension1="71000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="72301"
+		dimension1="71000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="7667"
+		dimension1="71000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3832"
+		dimension1="71000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="3835"
+		dimension1="71000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="82567"
+		dimension1="71800"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="41751"
+		dimension1="71800"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="40816"
+		dimension1="71800"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="80908"
+		dimension1="71800"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="40806"
+		dimension1="71800"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="40102"
+		dimension1="71800"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1659"
+		dimension1="71800"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="945"
+		dimension1="71800"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="714"
+		dimension1="71800"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="11072"
+		dimension1="71900"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5547"
+		dimension1="71900"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="5525"
+		dimension1="71900"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10240"
+		dimension1="71900"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5124"
+		dimension1="71900"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="5116"
+		dimension1="71900"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="832"
+		dimension1="71900"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="423"
+		dimension1="71900"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="409"
+		dimension1="71900"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="70145"
+		dimension1="75000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="32886"
+		dimension1="75000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="37259"
+		dimension1="75000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="68377"
+		dimension1="75000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="31994"
+		dimension1="75000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="36383"
+		dimension1="75000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1768"
+		dimension1="75000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="892"
+		dimension1="75000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="876"
+		dimension1="75000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="408381"
+		dimension1="35000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="191507"
+		dimension1="35000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="216874"
+		dimension1="35000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="391668"
+		dimension1="35000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="183266"
+		dimension1="35000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="208402"
+		dimension1="35000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="16713"
+		dimension1="35000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8241"
+		dimension1="35000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="8472"
+		dimension1="35000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="2291"
+		dimension1="84000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1110"
+		dimension1="84000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="1181"
+		dimension1="84000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1502"
+		dimension1="84000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="724"
+		dimension1="84000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="778"
+		dimension1="84000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="789"
+		dimension1="84000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="386"
+		dimension1="84000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="403"
+		dimension1="84000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="8542"
+		dimension1="81000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4040"
+		dimension1="81000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="4502"
+		dimension1="81000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="8279"
+		dimension1="81000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3907"
+		dimension1="81000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="4372"
+		dimension1="81000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="263"
+		dimension1="81000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="133"
+		dimension1="81000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="130"
+		dimension1="81000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1619"
+		dimension1="93000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="723"
+		dimension1="93000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="896"
+		dimension1="93000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1606"
+		dimension1="93000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="718"
+		dimension1="93000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="888"
+		dimension1="93000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="13"
+		dimension1="93000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5"
+		dimension1="93000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="8"
+		dimension1="93000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="6455"
+		dimension1="95000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3066"
+		dimension1="95000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="3389"
+		dimension1="95000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="6429"
+		dimension1="95000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="3052"
+		dimension1="95000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="3377"
+		dimension1="95000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="26"
+		dimension1="95000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="14"
+		dimension1="95000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="12"
+		dimension1="95000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="28465"
+		dimension1="1000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="13593"
+		dimension1="1000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="14872"
+		dimension1="1000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="24932"
+		dimension1="1000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11872"
+		dimension1="1000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="13060"
+		dimension1="1000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3533"
+		dimension1="1000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1721"
+		dimension1="1000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1812"
+		dimension1="1000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="11511"
+		dimension1="76000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5473"
+		dimension1="76000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="6038"
+		dimension1="76000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="10880"
+		dimension1="76000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="5135"
+		dimension1="76000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="5745"
+		dimension1="76000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="631"
+		dimension1="76000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="338"
+		dimension1="76000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="293"
+		dimension1="76000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="70176"
+		dimension1="4000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="33794"
+		dimension1="4000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="36382"
+		dimension1="4000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="66022"
+		dimension1="4000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="31755"
+		dimension1="4000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="34267"
+		dimension1="4000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="4154"
+		dimension1="4000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="2039"
+		dimension1="4000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="2115"
+		dimension1="4000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="63682"
+		dimension1="25000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="29271"
+		dimension1="25000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="34411"
+		dimension1="25000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="61956"
+		dimension1="25000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="28402"
+		dimension1="25000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="33554"
+		dimension1="25000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1726"
+		dimension1="25000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="869"
+		dimension1="25000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="857"
+		dimension1="25000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="35314"
+		dimension1="32000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16625"
+		dimension1="32000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="18689"
+		dimension1="32000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="34621"
+		dimension1="32000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="16308"
+		dimension1="32000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="18313"
+		dimension1="32000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="693"
+		dimension1="32000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="317"
+		dimension1="32000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="376"
+		dimension1="32000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="111049"
+		dimension1="50000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="51060"
+		dimension1="50000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="59989"
+		dimension1="50000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="107543"
+		dimension1="50000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="49309"
+		dimension1="50000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="58234"
+		dimension1="50000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="3506"
+		dimension1="50000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1751"
+		dimension1="50000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="1755"
+		dimension1="50000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="45659"
+		dimension1="52000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="21085"
+		dimension1="52000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="24574"
+		dimension1="52000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="45141"
+		dimension1="52000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="20842"
+		dimension1="52000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="24299"
+		dimension1="52000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="518"
+		dimension1="52000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="243"
+		dimension1="52000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="275"
+		dimension1="52000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="23618"
+		dimension1="69000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11667"
+		dimension1="69000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="11951"
+		dimension1="69000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="22757"
+		dimension1="69000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="11242"
+		dimension1="69000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="11515"
+		dimension1="69000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="861"
+		dimension1="69000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="425"
+		dimension1="69000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="436"
+		dimension1="69000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="215715"
+		dimension1="36000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="107281"
+		dimension1="36000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="108434"
+		dimension1="36000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="201426"
+		dimension1="36000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="99744"
+		dimension1="36000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="101682"
+		dimension1="36000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="14289"
+		dimension1="36000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="7537"
+		dimension1="36000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="6752"
+		dimension1="36000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="17735"
+		dimension1="98000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8915"
+		dimension1="98000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="8820"
+		dimension1="98000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="16437"
+		dimension1="98000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="8272"
+		dimension1="98000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="8165"
+		dimension1="98000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1298"
+		dimension1="98000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="643"
+		dimension1="98000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="655"
+		dimension1="98000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="20488"
+		dimension1="30000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="10635"
+		dimension1="30000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="9853"
+		dimension1="30000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="19101"
+		dimension1="30000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="9874"
+		dimension1="30000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="9227"
+		dimension1="30000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1387"
+		dimension1="30000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="761"
+		dimension1="30000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="626"
+		dimension1="30000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="118108"
+		dimension1="5000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="58719"
+		dimension1="5000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="59389"
+		dimension1="5000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="109676"
+		dimension1="5000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="54220"
+		dimension1="5000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="55456"
+		dimension1="5000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="8432"
+		dimension1="5000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="4499"
+		dimension1="5000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="3933"
+		dimension1="5000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="31761"
+		dimension1="8000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="15488"
+		dimension1="8000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="16273"
+		dimension1="8000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="30530"
+		dimension1="8000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="14831"
+		dimension1="8000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="15699"
+		dimension1="8000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="1231"
+		dimension1="8000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="657"
+		dimension1="8000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="574"
+		dimension1="8000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="3548"
+		dimension1="10000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1689"
+		dimension1="10000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="1859"
+		dimension1="10000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="3144"
+		dimension1="10000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1500"
+		dimension1="10000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="1644"
+		dimension1="10000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="404"
+		dimension1="10000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="189"
+		dimension1="10000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="215"
+		dimension1="10000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="3501"
+		dimension1="44000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1849"
+		dimension1="44000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="1652"
+		dimension1="44000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="3450"
+		dimension1="44000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1825"
+		dimension1="44000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="1625"
+		dimension1="44000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="51"
+		dimension1="44000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="24"
+		dimension1="44000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="27"
+		dimension1="44000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="16383"
+		dimension1="64000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="7863"
+		dimension1="64000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="8520"
+		dimension1="64000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="15866"
+		dimension1="64000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="7614"
+		dimension1="64000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="8252"
+		dimension1="64000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="517"
+		dimension1="64000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="249"
+		dimension1="64000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="268"
+		dimension1="64000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="2098"
+		dimension1="99000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1028"
+		dimension1="99000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="1070"
+		dimension1="99000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1572"
+		dimension1="99000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="747"
+		dimension1="99000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="825"
+		dimension1="99000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="526"
+		dimension1="99000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="281"
+		dimension1="99000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="245"
+		dimension1="99000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="2093"
+		dimension1="77000000"
+		dimension2="Гор+Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="1095"
+		dimension1="77000000"
+		dimension2="Гор+Сел"
+		dimension3="М" />
+	<cell
+		measure52="998"
+		dimension1="77000000"
+		dimension2="Гор+Сел"
+		dimension3="Ж" />
+	<cell
+		measure52="1650"
+		dimension1="77000000"
+		dimension2="Гор"
+		dimension3="М+Ж" />
+	<cell
+		measure52="861"
+		dimension1="77000000"
+		dimension2="Гор"
+		dimension3="М" />
+	<cell
+		measure52="789"
+		dimension1="77000000"
+		dimension2="Гор"
+		dimension3="Ж" />
+	<cell
+		measure52="443"
+		dimension1="77000000"
+		dimension2="Сел"
+		dimension3="М+Ж" />
+	<cell
+		measure52="234"
+		dimension1="77000000"
+		dimension2="Сел"
+		dimension3="М" />
+	<cell
+		measure52="209"
+		dimension1="77000000"
+		dimension2="Сел"
+		dimension3="Ж" />
+</data>

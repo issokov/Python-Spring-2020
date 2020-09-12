@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <script src="/static/js/jquery.min.js"></script>
+
+    {% block head %}
+        <title>{% block title %}{% endblock %}</title>
+    {% endblock %}
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="page-header"> {% block header %} {% endblock %} </div>
+        <div id="content">{% block content %}{% endblock %}</div>
+    </div>
+</div>
+<script src="static/js/bootstrap.min.js"></script>
+</body>
+
+</html>

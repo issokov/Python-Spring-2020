@@ -1,0 +1,184 @@
+import sys
+from random import choice
+from copy import deepcopy
+from itertools import product
+from collections import defaultdict
+
+COOL, MAYBE, ERROR = 0, 1, 2
+
+
+def small_check(nine_numbers):
+    store = set()
+    is_cool = True
+    for value in nine_numbers:
+        if value == '0':
+            is_cool = False
+        else:
+            if value in store:
+                return ERROR
+            else:
+                store.add(value)
+    return COOL if is_cool else MAYBE
+
+
+def check(sudoku):
+    status = COOL
+    for i in range(9):
+        status = max(status, small_check([sudoku[i][j] for j in range(9)]))
+        status = max(status, small_check([sudoku[j][i] for j in range(9)]))
+    for s_i in range(0, 7, 3):
+        for s_j in range(0, 7, 3):
+            block = [sudoku[s_i + i][s_j + j]
+                     for i in range(3) for j in range(3)]
+            status = max(status, small_check(block))
+    return status
+
+
+def update_state(condition, variants, x, y, value):
+    condition[x][y] = value
+    variants[x][y] = None
+    x_square, y_square = (x // 3) * 3, (y // 3) * 3
+    for x, y in product(range(3), repeat=2):
+        if variants[x_square + x][y_square + y]:
+            variants[x_square + x][y_square + y].discard(value)
+    for i in range(9):
+        if variants[x][i]:
+            variants[x][i].discard(value)
+        if variants[i][y]:
+            variants[i][y].discard(value)
+
+def calc_variants(condition):
+    while True:
+        true_variants = False
+        variants = deepcopy(condition)
+        for x, y in product(range(9), repeat=2):
+            if condition[x][y] == '0':
+                cands = set(str(i) for i in range(1, 10))
+                for i in range(9):
+                    cands.discard(condition[x][i])
+                    cands.discard(condition[i][y])
+                variants[x][y] = cands
+            else:
+                variants[x][y] = None
+        for x, y, in product(range(0, 7, 3), repeat=2):
+            banned = set()
+            if not true_variants:
+                for i, j in product(range(3), repeat=2):
+                    banned.add(condition[x + i][y + j])
+                for i, j in product(range(3), repeat=2):
+                    if variants[x + i][y + j]:
+                        variants[x + i][y + j] -= banned
+                        if len(variants[x + i][y + j]) == 1:
+                            update_state(condition, variants, x + i, y + j, variants[x + i][y + j].pop())
+                            true_variants = True
+        if not true_variants:
+            return variants
+
+
+def try_to_hor(condition, variants):
+    for i in range(9):
+        row = defaultdict(lambda: 0)
+        for j in range(9):
+            if variants[i][j] != None:
+                for v in variants[i][j]:
+                    row[v] += 1
+        for val, cnt in row.items():
+            if cnt == 1:
+                for j in range(9):
+                    if variants[i][j] != None and val in variants[i][j]:
+                        condition[i][j] = val
+                        variants[i][j] = None
+                        return condition
+    return condition
+
+
+def try_to_ver(condition, variants):
+    for i in range(9):
+        col = defaultdict(lambda: 0)
+        for j in range(9):
+            if variants[j][i]:
+                for v in variants[j][i]:
+                    col[v] += 1
+        for val, cnt in col.items():
+            if cnt == 1:
+                for j in range(9):
+                    if variants[j][i] != None and val in variants[j][i]:
+                        condition[j][i] = val
+                        variants[j][i] = None
+                        return condition
+    return condition
+
+
+def try_to_sqr(condition, variants):
+    for x, y, in product(range(0, 7, 3), repeat=2):
+        sqr = defaultdict(lambda: 0)
+        for i, j in product(range(3), repeat=2):
+            if variants[x + i][y + j]:
+                for v in variants[x + i][y + j]:
+                    sqr[v] += 1
+        for val, cnt in sqr.items():
+            if cnt == 1:
+                for i, j in product(range(3), repeat=2):
+                    if variants[x + i][y + j] != None and val in variants[x + i][y + j]:
+                        condition[x + i][y + j] = val
+                        variants[x + i][y + j] = None
+                        return condition
+    return condition
+
+
+def try_to_logic(condition_):
+    condition = deepcopy(condition_)
+    checker = True
+    while check(condition) > COOL and checker:
+        checker = False
+        variants = calc_variants(condition)
+        condition = try_to_hor(condition, variants)
+        variants = calc_variants(condition)
+        condition = try_to_ver(condition, variants)
+        variants = calc_variants(condition)
+        condition = try_to_sqr(condition, variants)
+        if check(condition) == ERROR:
+            print("ERROR")
+            break
+    return condition
+
+
+def get_variant(condition):
+    variants = calc_variants(condition)
+    sorted_variants = []
+    for i, j in product(range(9), repeat=2):
+        if variants[i][j] != None:
+            if len(variants[i][j]) == 0:
+                return ((0, 0), '*')
+            sorted_variants.append(((i, j), variants[i][j]))
+    if len(sorted_variants) == 0:
+        return ((-1, -1), '+')
+    sorted_variants.sort(key=lambda x: len(x[1]))
+    return (sorted_variants[0][0], choice(list(sorted_variants[0][1])))
+
+hard ="""800000000
+003600000
+070090200
+050007000
+000045700
+000100030
+001000068
+008500010
+090000400"""
+condition = [list(row) for row in hard.split("\n")]
+origin = try_to_logic(condition)
+
+__ = 0
+while True:
+    (x, y), v = get_variant(condition)
+    if v != '*' and v != '+':
+        condition[x][y] = v
+        condition = try_to_logic(condition)
+    elif v == '*':
+        __ += 1
+        condition = deepcopy(origin)
+    else:
+        break
+print(__)
+for row in condition:
+    print("".join(row))

@@ -1,0 +1,38 @@
+set years ['2018', '2019']
+set months ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+set wiki_url 'https://ru.wikipedia.org/wiki/Шаблон:Potd/'
+create_dir data
+loop years year
+    doc-new book
+    loop months month
+        set url wiki_url + year + '-' + month
+        web-load-page url page
+        extract find_all("div","thumbinner") page blocks
+        set header "Best of **." + month + '.' + year
+        doc add_heading(header) book
+        set counter 1
+        loop blocks block
+            #EXTRACTING IMAGE
+                extract find("a","image")["href"] block image_url
+                set image_url 'https://ru.wikipedia.org' + image_url
+                web-load-page image_url img_page
+                extract find("div","mw-filepage-resolutioninfo").a["href"] img_page image_url
+                set image_url "https://" + image_url
+                set img_file 'data/' + str(counter) + '.jpg'
+                web-save-file image_url img_file
+            #EXTRACTING TEXT
+                extract div.text block text
+            #FORM DOCUMENT:
+                doc add_section() book
+                doc-album book
+                set heading f'{str(counter)}.{month}.{year}'
+                show heading
+                doc add_heading(heading) book
+                doc add_picture(img_file,Inches(7),Inches(5)) book
+                doc add_paragraph(text) book
+            set counter counter + 1
+        endloop
+    endloop
+    set output_name f'album-{year}.docx'
+    doc-save output_name book
+endloop

@@ -1,0 +1,842 @@
+{
+  "http://russian.rt.com": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.060758,
+        "ba0e4560a03258e1172d8c872b643f4d"
+      ],
+      [
+        1588786724.086771,
+        "ba0e4560a03258e1172d8c872b643f4d"
+      ]
+    ]
+  },
+  "http://ria.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.505304,
+        "0a445ac35edbdfa78d1d110f3c10b429"
+      ],
+      [
+        1588786724.130982,
+        "f39cf800cc1ed2ca58ad1198eb5ea700"
+      ]
+    ]
+  },
+  "http://rbc.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.044784,
+        "05c2aefbdbf76b8b6e4dc65ac967fa37"
+      ],
+      [
+        1588786723.593937,
+        "05c2aefbdbf76b8b6e4dc65ac967fa37"
+      ]
+    ]
+  },
+  "http://lenta.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.637824,
+        "236d6836fdf9be1353de4ab3bcab85e5"
+      ],
+      [
+        1588786727.014943,
+        "236d6836fdf9be1353de4ab3bcab85e5"
+      ]
+    ]
+  },
+  "http://kp.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.523844,
+        "20f5e94aade5258953b089996ccbe271"
+      ],
+      [
+        1588786727.594612,
+        "20f5e94aade5258953b089996ccbe271"
+      ]
+    ]
+  },
+  "https://www.gazeta.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.601685,
+        "9bfbdf69afbaceaca5def3853a173496"
+      ],
+      [
+        1588786724.60833,
+        "9bfbdf69afbaceaca5def3853a173496"
+      ]
+    ]
+  },
+  "http://echo.msk.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.04821,
+        "9095bdb7e330f36f9853f3698b40f521"
+      ],
+      [
+        1588786724.742695,
+        "9095bdb7e330f36f9853f3698b40f521"
+      ]
+    ]
+  },
+  "http://smi2.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.111718,
+        "04a4a001d564ec56db4bb9b320aed404"
+      ],
+      [
+        1588786722.653778,
+        "04a4a001d564ec56db4bb9b320aed404"
+      ]
+    ]
+  },
+  "http://tass.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.385558,
+        "4bbe43717eb3d9d7204b984d4daed0cb"
+      ],
+      [
+        1588786722.895656,
+        "a6e045c5da40b1ba908b9c316a69be4b"
+      ]
+    ]
+  },
+  "http://mk.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786717.012136,
+        "3561815dd8fe51b112ab784a4fcb9646"
+      ],
+      [
+        1588786725.252916,
+        "3561815dd8fe51b112ab784a4fcb9646"
+      ]
+    ]
+  },
+  "http://aif.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.102249,
+        "f3593044bfeffb70536ab35d08b13630"
+      ],
+      [
+        1588786727.400868,
+        "f3593044bfeffb70536ab35d08b13630"
+      ]
+    ]
+  },
+  "http://rg.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.580097,
+        "97f52766c0f9bef0c67df348064a6a2e"
+      ],
+      [
+        1588786726.675936,
+        "97f52766c0f9bef0c67df348064a6a2e"
+      ]
+    ]
+  },
+  "http://kommersant.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.137635,
+        "92745231f831202d13f1316c7055c5d0"
+      ],
+      [
+        1588786727.232342,
+        "92745231f831202d13f1316c7055c5d0"
+      ]
+    ]
+  },
+  "http://vz.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.433507,
+        "f0239837162b180099bbba54fb3135a9"
+      ],
+      [
+        1588786723.946756,
+        "f0239837162b180099bbba54fb3135a9"
+      ]
+    ]
+  },
+  "http://topwar.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.880624,
+        "a2bdc62c6bb1ae85007a6611febccd11"
+      ],
+      [
+        1588786723.765083,
+        "a2bdc62c6bb1ae85007a6611febccd11"
+      ]
+    ]
+  },
+  "http://rusvesna.su": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.347466,
+        "4cebdfb80fccce6aa345a5bbd1289387"
+      ],
+      [
+        1588786723.652136,
+        "4cebdfb80fccce6aa345a5bbd1289387"
+      ]
+    ]
+  },
+  "http://newsru.com": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786720.007608,
+        "40f6f61bb7b7af24c528c3933f5d12b5"
+      ],
+      [
+        1588786728.352718,
+        "40f6f61bb7b7af24c528c3933f5d12b5"
+      ]
+    ]
+  },
+  "http://regnum.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.266758,
+        "6562167e287f96be4238f3ea1e143471"
+      ],
+      [
+        1588786723.516202,
+        "b1feae19c348de4b7cfdf7f10e2c5308"
+      ]
+    ]
+  },
+  "http://interfax.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.309436,
+        "eaebd0ce8aa305733285652e506415b1"
+      ],
+      [
+        1588786723.432761,
+        "eaebd0ce8aa305733285652e506415b1"
+      ]
+    ]
+  },
+  "http://svpressa.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.504959,
+        "68596fdfa9fee1af0065bb73d91ece35"
+      ],
+      [
+        1588786724.264913,
+        "68596fdfa9fee1af0065bb73d91ece35"
+      ]
+    ]
+  },
+  "http://tvrain.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.641045,
+        "ed4d06c1d89a42ddb245d58287fb9561"
+      ],
+      [
+        1588786725.02559,
+        "ed4d06c1d89a42ddb245d58287fb9561"
+      ]
+    ]
+  },
+  "http://vedomosti.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.398071,
+        "1e433c5ff8934416f348429833494aba"
+      ],
+      [
+        1588786727.967,
+        "1e433c5ff8934416f348429833494aba"
+      ]
+    ]
+  },
+  "http://inosmi.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.190385,
+        "a9fc758075302481c264498d41d6c53b"
+      ],
+      [
+        1588786724.476315,
+        "84fef895563c5a17c85290e5eb2a1285"
+      ]
+    ]
+  },
+  "http://24smi.org": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.412139,
+        "42f6669ae820b5b6158f5d97f44e07ff"
+      ],
+      [
+        1588786726.645668,
+        "42f6669ae820b5b6158f5d97f44e07ff"
+      ]
+    ]
+  },
+  "http://novayagazeta.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.055815,
+        "8b75efc7b477980fdbef5497f964e353"
+      ],
+      [
+        1588786722.752491,
+        "8b75efc7b477980fdbef5497f964e353"
+      ]
+    ]
+  },
+  "http://pravda.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.464465,
+        "42aa3bd4060b2c1ccd4d585ec138490a"
+      ],
+      [
+        1588786726.841666,
+        "42aa3bd4060b2c1ccd4d585ec138490a"
+      ]
+    ]
+  },
+  "http://rosbalt.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.944697,
+        "89e4fd28da4e86bd386c7106f76e3680"
+      ],
+      [
+        1588786726.88098,
+        "89e4fd28da4e86bd386c7106f76e3680"
+      ]
+    ]
+  },
+  "http://ridus.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.781095,
+        "4300d49ed447ce49d4c08bc3552dc927"
+      ],
+      [
+        1588786728.151408,
+        "e567b6d65113097aa6e9d3af186bd98e"
+      ]
+    ]
+  },
+  "http://newizv.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.443391,
+        "3d5c079479848e85ddc62bef987c5dca"
+      ],
+      [
+        1588786725.20134,
+        "3d5c079479848e85ddc62bef987c5dca"
+      ]
+    ]
+  },
+  "http://utro.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.733952,
+        "66a581b3af36c6c7acfc24225e4d91f9"
+      ],
+      [
+        1588786724.015006,
+        "66a581b3af36c6c7acfc24225e4d91f9"
+      ]
+    ]
+  },
+  "http://infox.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.805413,
+        "56b8c1b7a2bc6e28e3fecbce5eb0acf4"
+      ],
+      [
+        1588786724.407837,
+        "56b8c1b7a2bc6e28e3fecbce5eb0acf4"
+      ]
+    ]
+  },
+  "http://bfm.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.334912,
+        "edab6f2f59ac6e89e66f84c276bc8565"
+      ],
+      [
+        1588786725.155531,
+        "edab6f2f59ac6e89e66f84c276bc8565"
+      ]
+    ]
+  },
+  "http://ng.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.734347,
+        "65929e94bbbe01b7b1f932aa91014560"
+      ],
+      [
+        1588786727.070429,
+        "65929e94bbbe01b7b1f932aa91014560"
+      ]
+    ]
+  },
+  "http://newsland.com": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.254199,
+        "cdfb672ffbae8f583afb9af83759cd36"
+      ],
+      [
+        1588786724.314376,
+        "7df2a0e31858c7f148c19fe998d922d8"
+      ]
+    ]
+  },
+  "http://politnavigator.net": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.301451,
+        "322e6a2c54787d35f06312bc63311b2d"
+      ],
+      [
+        1588786727.697998,
+        "3043cd7ba02464d7c90dad5714a172b1"
+      ]
+    ]
+  },
+  "http://sobesednik.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.857364,
+        "30efb76f475b1f4284579cac3985215c"
+      ],
+      [
+        1588786726.731459,
+        "30efb76f475b1f4284579cac3985215c"
+      ]
+    ]
+  },
+  "http://kavkaz-uzel.eu": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.464595,
+        "eec96b877190c40390befd09a8698737"
+      ],
+      [
+        1588786727.827027,
+        "eec96b877190c40390befd09a8698737"
+      ]
+    ]
+  },
+  "http://1prime.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.024116,
+        "143a878a81b1272cfe9dea2603b82a46"
+      ],
+      [
+        1588786723.910583,
+        "c6cb7f761a3a41fe2ef81bf4eb2393ed"
+      ]
+    ]
+  },
+  "http://radiomayak.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.315549,
+        "0913a0e8dfc2e15e65ee144a2090977f"
+      ],
+      [
+        1588786722.719915,
+        "0913a0e8dfc2e15e65ee144a2090977f"
+      ]
+    ]
+  },
+  "http://trud.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.172659,
+        "92ed86949c4929cf42d31ea9f1d089d4"
+      ],
+      [
+        1588786722.848152,
+        "92ed86949c4929cf42d31ea9f1d089d4"
+      ]
+    ]
+  },
+  "http://free-news.su": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.227245,
+        "94924634c3b0ab4f9a1144ec4895e8ee"
+      ],
+      [
+        1588786722.803131,
+        "94924634c3b0ab4f9a1144ec4895e8ee"
+      ]
+    ]
+  },
+  "http://etokavkaz.ru": {
+    "errors": 1,
+    "success": 1,
+    "updates": [
+      [
+        1588786719.269268,
+        "c5f7c5af02f579cd44142c425610e8ae"
+      ],
+      [
+        1588786728.351572,
+        null
+      ]
+    ]
+  },
+  "http://rapsinews.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.018806,
+        "cfed10b2c6eaedd851974c8ce25ac748"
+      ],
+      [
+        1588786723.566042,
+        "cfed10b2c6eaedd851974c8ce25ac748"
+      ]
+    ]
+  },
+  "http://wek.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.615285,
+        "869b80db3c474f3a5915a8674c717d03"
+      ],
+      [
+        1588786723.88075,
+        "869b80db3c474f3a5915a8674c717d03"
+      ]
+    ]
+  },
+  "http://og.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.381207,
+        "8af020aee729da0dd52071ddb53a9972"
+      ],
+      [
+        1588786725.221665,
+        "8af020aee729da0dd52071ddb53a9972"
+      ]
+    ]
+  },
+  "http://dv.land": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.588955,
+        "e7b62ccabd3a2852bdc654d519c2dc35"
+      ],
+      [
+        1588786723.741361,
+        "e7b62ccabd3a2852bdc654d519c2dc35"
+      ]
+    ]
+  },
+  "http://uralpress.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.98846,
+        "9c75987e540756da9542b1e3ed75cbf8"
+      ],
+      [
+        1588786726.949028,
+        "9c75987e540756da9542b1e3ed75cbf8"
+      ]
+    ]
+  },
+  "http://mn.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786715.653042,
+        "d85c3b80831b4351ce8b786520714a4c"
+      ],
+      [
+        1588786724.934014,
+        "d85c3b80831b4351ce8b786520714a4c"
+      ]
+    ]
+  },
+  "http://regions.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786714.340038,
+        "949512fae9af67c0789b9a57b60ce91f"
+      ],
+      [
+        1588786724.566411,
+        "949512fae9af67c0789b9a57b60ce91f"
+      ]
+    ]
+  },
+  "http://gzt.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.733931,
+        "17b22fe42a01db49b955b85cff5e33ae"
+      ],
+      [
+        1588786727.002651,
+        "17b22fe42a01db49b955b85cff5e33ae"
+      ]
+    ]
+  },
+  "http://online24news.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.816929,
+        "1301bfa750d75c87b62d68ea8142b5d7"
+      ],
+      [
+        1588786727.190995,
+        "1301bfa750d75c87b62d68ea8142b5d7"
+      ]
+    ]
+  },
+  "http://novostimira24.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.692907,
+        "0c6d47ae49fbd8d164c3b85c0b823537"
+      ],
+      [
+        1588786728.035098,
+        "0c6d47ae49fbd8d164c3b85c0b823537"
+      ]
+    ]
+  },
+  "http://novostik.com": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.348456,
+        "8e9e36e9e0dd6d1f0ede48e917f2f09b"
+      ],
+      [
+        1588786727.64973,
+        "8e9e36e9e0dd6d1f0ede48e917f2f09b"
+      ]
+    ]
+  },
+  "http://izvestia.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.439469,
+        "530d10f4b243073084576ef43f641b42"
+      ],
+      [
+        1588786727.482408,
+        "530d10f4b243073084576ef43f641b42"
+      ]
+    ]
+  },
+  "http://novostidnya24.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.920018,
+        "357324b61dbbdd6538796535f0d21459"
+      ],
+      [
+        1588786724.999316,
+        "357324b61dbbdd6538796535f0d21459"
+      ]
+    ]
+  },
+  "http://ostrana.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786720.067614,
+        "1ae0d4c43b9448eb2db1921b3b9e7879"
+      ],
+      [
+        1588786728.410043,
+        "1ae0d4c43b9448eb2db1921b3b9e7879"
+      ]
+    ]
+  },
+  "http://zhkhtv.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786716.021691,
+        "f416b1ac0ab70dc9566ff352f0c90537"
+      ],
+      [
+        1588786724.405052,
+        "f416b1ac0ab70dc9566ff352f0c90537"
+      ]
+    ]
+  },
+  "http://slon.ru": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.935696,
+        "31ff2c7c98bd326a72c85d035393171f"
+      ],
+      [
+        1588786728.07907,
+        "31ff2c7c98bd326a72c85d035393171f"
+      ]
+    ]
+  },
+  "http://smi24.news": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786719.859244,
+        "6f08dbccbf6bacfce8ff7c8eeda18543"
+      ],
+      [
+        1588786727.746766,
+        "6f08dbccbf6bacfce8ff7c8eeda18543"
+      ]
+    ]
+  },
+  "http://pro-remont.org": {
+    "errors": 0,
+    "success": 2,
+    "updates": [
+      [
+        1588786718.746146,
+        "9ddfb2aed1fec88a5aa9fd808ac7fea6"
+      ],
+      [
+        1588786727.88491,
+        "9ddfb2aed1fec88a5aa9fd808ac7fea6"
+      ]
+    ]
+  }
+}

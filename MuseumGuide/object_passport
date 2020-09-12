@@ -1,0 +1,452 @@
+{"id":"https://esb.mkrf.ru/cdm/v2/museum-exhibits",
+"javaType":"ru.armf.mkesb.model.canonical.exhibit.Exhibit",
+"type":"object",
+"properties":	{
+	"name":	{
+		"type":"string",
+		"title":"Наименование предмета",
+		"logicalType":"String",
+		"indexable":true,
+		"table":2
+	},
+	"authors": {
+		"type":"array",
+		"title":"Авторы",
+		"items": {
+		    "type":"string",
+		    "title":"Автор",
+		    "logicalType":"String",
+		    "indexable":true,
+		    "table":0
+		}
+	},
+	"museum": {
+	    "title":"Музей",
+	    "type":"object","
+	    properties":{
+	        "name": {
+	            "type":"string",
+	            "title":"Музей",
+	            "logicalType":"String",
+	            "suggestable":true,
+	            "indexable":true,
+	            "table":10
+	        },
+	        "id":   {
+	            "type":"number",
+	            "title":"Идентификатор музея",
+	            "logicalType":"Number",
+	            "diagram":false,
+	            "indexable":false,
+	            "table":0
+	        },
+	        "code": {
+	            "type":"string",
+	            "title":"КОПУК музея",
+	            "logicalType":"String",
+	            "diagram":false,
+	            "indexable":true
+	        },
+	        "inn":{
+	            "type":"string",
+	            "title":"ИНН музея",
+	            "logicalType":"String",
+	            "diagram":false,
+	            "indexable":false,
+	            "table":0
+	        }
+	    }
+	},
+	"technologies":{
+	    "type":"array",
+	    "title":"Материалы, техники.",
+	    "items":    {
+	        "type":"string",
+	        "title":"Items",
+	        "logicalType":"String",
+	        "indexable":false,
+	        "table":0
+	    }
+	},
+	"periodStr":{
+	    "type":"string",
+	    "title":"Дата создания предмета (строка)",
+	    "logicalType":"String",
+	    "indexable":true,
+	    "table":4
+	},
+	"productionPlace": {
+	    "type":"string",
+	    "title":"Место создания",
+	    "logicalType":"String",
+	    "indexable":true,
+	    "table":7
+	},
+	"producers":    {
+	    "title":"Производители",
+	    "type":"array",
+	    "items":{
+	        "type":"string",
+	        "title":"Items",
+	        "logicalType":"String",
+	        "indexable":false,
+	        "table":0
+	    }
+	},
+	"findPlace":{
+	    "type":"string",
+	    "title":"Место находки",
+	    "logicalType":"String",
+	    "indexable":false,
+	    "table":0
+	},
+	"dimStr":{
+	    "type":"string",
+	    "title":"Строковое описание размеров",
+	    "logicalType":"String",
+	    "indexable":false,
+	    "table":0
+	},
+	"description":{
+	    "type":"string",
+	    "title":"Описание",
+	    "logicalType":"String",
+	    "indexable":false,
+	    "table":0
+	},
+	"partsCount":{
+	    "type":"number",
+	    "title":"Количество составляющих",
+	    "logicalType":"Number",
+	    "indexable":false,
+	    "diagram":true,
+	    "table":0
+	},
+	"images":{
+	    "type":"array",
+	    "items":{
+	        "type":"object",
+	        "properties":{
+	            "type":{
+	                "type":"string",
+	                "description":"тип картинки",
+	                "title":"Type",
+	                "logicalType":"String",
+	                "indexable":false,
+	                "table":0
+	            },
+	            "url":{
+	                "type":"string",
+	                "description":"адрес картинки",
+	                "title":"Url",
+	                "logicalType":"URL",
+	                "indexable":false,
+	                "table":0
+	            },
+	            "preview":{
+	                "type":"string",
+	                "description":"превью картинки",
+	                "title":"Preview",
+	                "logicalType":"String",
+	                "indexable":false,
+	                "table":0
+	            },
+	            "title":{
+	                "type":"string",
+	                "description":"заголовок картинки",
+	                "title":"Title",
+	                "logicalType":"String",
+	                "indexable":false,
+	                "table":0
+	            }
+	        },
+
+	        "title":"Изображение",
+	        "logicalType":"Image",
+	        "indexable":false,
+	        "table":0
+
+	    },
+
+	    "title":"Изображения"
+
+	},
+	"regNumber":{
+	    "type":"number",
+	    "title":"Регистрационный номер Госкаталога",
+	    "logicalType":"Number",
+	    "indexable":true,
+	    "diagram":false,
+	    "table":11,
+	    "order":"desc"
+	},"
+	regDate":{
+	    "type":"string",
+	    "logicalType":"Date",
+	    "title":"Дата регистрации записи."
+	},
+	"invNumber":{
+	    "type":"string",
+	    "title":"Инвентарный номер",
+	    "logicalType":"String",
+	    "indexable":true,
+	    "table":12
+	},
+	"gikNumber":{
+	    "type":"string",
+	    "title":"Номер по ГИК",
+	    "logicalType":"String",
+	    "indexable":true,
+	    "table":13
+	},
+	"id":{
+	    "type":"number",
+	    "title":"Внутренний идентификатор",
+	    "diagram":false,
+	    "logicalType":"Number",
+	    "indexable":false,
+	    "table":0
+    },
+    "owner":{
+        "type":"string",
+        "title":"Собственник",
+        "logicalType":"String",
+        "indexable":false,
+        "table":0
+    },
+    "type": {
+        "type":"number",
+        "title":"Тип предмета",
+        "diagram":false,
+        "logicalType":"Number",
+        "indexable":false,
+        "table":0
+    },
+    "weight":{
+        "type":"number",
+        "title":"Вес",
+        "logicalType":"Number",
+        "indexable":false,
+        "diagram":true,
+        "table":0
+    },
+    "weightUnit":{
+        "title":"Единица измерения веса",
+        "type":"object",
+        "properties":{
+            "name":{
+                "type":"string",
+                "title":"Единица измерения веса",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0
+            }
+        }
+    },
+    "width":{"type":"number","title":"Ширина","logicalType":"Number","indexable":false,"diagram":true,"table":0},
+    "height":{"type":"number","title":"Высота","logicalType":"Number","indexable":false,"diagram":true,"table":0},
+    "length":{"type":"number","title":"Длина","logicalType":"Number","indexable":false,"diagram":true,"table":0},
+    "dimUnit":{"title":"Единица измерения размера","type":"object","properties":{"name":{"type":"string","title":"Единица измерения размера","logicalType":"String","indexable":false,"table":0}}},
+
+    "epoch":{
+        "title":"Эпоха создания предмета",
+        "type":"object",
+        "properties":   {
+            "id":   {
+            "type":"number",
+            "title":"Идентификатор эпохи создания предмета",
+            "logicalType":"Number",
+            "diagram":false,
+            "indexable":false,
+            "table":0
+            },
+            "name":{
+                "type":"string",
+                "title":"Эпоха создания предмета",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0
+            },
+            "range":{
+                "type":"string",
+                "title":"Время эпохи",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0
+            },
+            "fullName":{
+                "type":"string",
+                "title":"Название эпохи",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0
+            }
+        }
+    },
+    "startDate": {
+        "type":"number",
+        "logicalType":"Date",
+        "title":"Интервал времени создания предмета (начало)"
+    },
+    "finishDate":{
+        "type":"number",
+        "logicalType":"Date",
+        "title":"Интервал времени создания предмета (окончание)"
+    },
+    "precision":{
+        "type":"string",
+        "title":"Точность задания времени (день, месяц, год, век, эпоха).",
+        "logicalType":"String",
+        "indexable":false,
+        "table":0
+    },
+    "extUrl":{
+        "type":"string",
+        "title":"URL предмета на сайте музея",
+        "logicalType":"URL",
+        "indexable":false,
+        "table":0
+    },
+    "mainWords":{
+        "type":"string",
+        "title":"Ключевые слова",
+        "logicalType":"String",
+        "indexable":false,
+        "table":0
+    },
+    "provenance":{
+        "type":"string",
+        "title":"Краткое описание истории бытования (провенанс) предмета",
+        "logicalType":"String",
+        "indexable":false,
+        "table":0
+    },
+    "statusId":{
+        "type":"number",
+        "title":"Идентификатор статуса предмета",
+        "logicalType":"Number",
+        "diagram":false,
+        "indexable":false,
+        "table":0
+    },
+    "typology":{
+        "title":"Типология",
+        "type":"object",
+        "properties":{
+            "name":{
+                "type":"string",
+                "title":"Типология",
+                "logicalType":"String",
+                "suggestable":true,
+                "indexable":true,
+                "table":5
+            },
+            "id":{
+                "type":"number",
+                "title":"Идентификатор типологии",
+                "logicalType":"Number",
+                "diagram":false,
+                "indexable":false,
+                "table":0
+            }
+        }
+    },
+    "typologyDesc":{
+        "title":"Типология (строковое описание).",
+        "type":"string",
+        "logicalType":"String",
+        "indexable":false,
+        "table":0
+    },
+    "exclusionCause":{
+        "title":"Причина исключения",
+        "type":"object",
+        "properties":{
+            "name":{
+                "type":"string",
+                "title":"Причина исключения",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0
+            }
+        }
+    },
+    "regReason":{
+        "title":"Основание для регистрации предмета",
+        "type":"object",
+        "properties":{
+            "name":{
+                "type":"string",
+                "title":"Основание для регистрации предмета",
+                "logicalType":"String",
+                "indexable":false,
+                "table":0}
+            }
+        },
+        "budget":{
+            "title":"Бюджет",
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "title":"Бюджет",
+                    "logicalType":"String",
+                    "indexable":false,
+                    "table":0
+                }
+            }
+        },
+        "fund":{
+            "title":"Часть музейного фонда",
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "title":"Часть музейного фонда",
+                    "logicalType":"String",
+                    "indexable":false,
+                    "table":0
+                }
+            }
+        },
+        "managementOrder":{
+            "title":"Порядок управления",
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "title":"Порядок управления",
+                    "logicalType":"String",
+                    "indexable":false,
+                    "table":0
+                }
+            }
+        },
+        "extExhibit":{
+            "title":"Предмет в музейной системе",
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "title":"Предмет в музейной системе",
+                    "logicalType":"String",
+                    "indexable":false,
+                    "table":0
+                }
+            }
+        },
+        "extSystem":{
+            "title":"Музейная система",
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "title":"Музейная система",
+                    "logicalType":"String",
+                    "indexable":false,
+                    "table":0
+                }
+            }
+        }
+    }
+}

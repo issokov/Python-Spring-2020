@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block header %}
+    <h1>Analytics</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="row mb-3">
+        <div class="col-12">
+            <a class="btn-toolbar" role="toolbar">
+                <a type="button" class="btn btn-warning" href="/">
+                    Back
+                </a>
+            </a>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-3 col-2 d-flex justify-content-end">
+            <label for="page">Page</label>
+        </div>
+        <div class="col-2 d-flex justify-content-start">
+            <input id="page" name="page" type="url" value="{{ url }}">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-3 col-2 d-flex justify-content-end">
+            <label for="short">Short URL</label>
+        </div>
+        <div class="col-2 d-flex justify-content-start">
+            <input type="url" name="short" id="short" value="{{ domain }}{{ key }}">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-3 col-2 d-flex justify-content-end">
+            <label style="color: #c82333"><b>Password</b></label>
+        </div>
+        <div class="col-2 d-flex justify-content-start">
+            <label>{{ password }}</label>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-3 col-2 d-flex justify-content-end">
+            <label style="color: #007bff"><b>Visits</b></label>
+        </div>
+        <div class="col-2 d-flex justify-content-start">
+            <label>{{ count }}</label>
+        </div>
+    </div>
+    <form action="/analytics/{{ key }}?password={{ password }}" method="POST">
+        <div class="row">
+            <div class="offset-4 col-4 d-flex justify-content-center">
+                <button class="btn btn-danger btn-block" type="submit">Remove</button>
+            </div>
+        </div>
+    </form>
+
+{% endblock %}

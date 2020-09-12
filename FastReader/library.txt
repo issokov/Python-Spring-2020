@@ -1,0 +1,17 @@
+{
+    "477571-www.libfox.ru": {
+        "name": "477571-www.libfox.ru",
+        "path": "/home/issokov/Desktop/Projects/CS/Python/FastReader/477571-www.libfox.ru.txt",
+        "bookmark": 10354
+    },
+    "fast_reader_sokov": {
+        "name": "fast_reader_sokov",
+        "path": "/home/issokov/Desktop/Projects/CS/Python/FastReader/fast_reader_sokov.zip",
+        "bookmark": 0
+    },
+    "library": {
+        "name": "library",
+        "path": "/home/issokov/Desktop/Projects/CS/Python/FastReader/library.txt",
+        "bookmark": 24
+    }
+}
